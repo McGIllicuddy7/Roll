@@ -41,13 +41,11 @@ func main(){
 		if bytes[counter] == '+'{
 			add = true
 			counter ++
-			println("called + ")
 			break
 		}
 		if bytes[counter] == '-'{
 			add = false
 			counter ++
-			println("called + ")
 			break
 		}
 		die_bytes = append(die_bytes, bytes[counter])
