@@ -80,6 +80,9 @@ func main(){
 	}
 	values := make([]int,0);
 	total := int(ad)
+	if !add {
+		total *= -1
+	}
 	t := time.Now()
 	ns := int64(t.Nanosecond())
 	rand.Seed(ns)
